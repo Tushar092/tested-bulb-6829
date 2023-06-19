@@ -1,0 +1,190 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+}
+
+#nav {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    display: flex;
+}
+
+#search {
+    width: 500px;
+    align-items: center;
+    margin: auto;
+    margin-left: 25px;
+}
+
+#search>input {
+    width: 100%;
+    border: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+#nav-links {
+    width: 40%;
+    overflow: hidden;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid green; */
+}
+
+/* Links inside the navbar */
+#nav-links a {
+    float: left;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.473);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* The dropdown container */
+.dropdown {
+    overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgba(73, 73, 73, 0.575);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    /* Important for vertical align on mobile phones */
+    margin: 0;
+    /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f7f7f7;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.nav2 {
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    justify-content: space-around;
+}
+
+/* Style the links inside the navigation bar */
+.nav2 a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+}
+
+.nav2 a:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav2 a.active {
+    border-bottom: 1px solid #3659E3;
+    color: #3659E3;
+}
+
+.scrollmenu {
+    width: 90%;
+    padding: 40px;
+    margin: auto;
+    margin-top: 30px;
+    overflow: auto;
+    white-space: nowrap;
+    background-color: #F8F7FA;
+}
+
+div.scrollmenu .card {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+
+div.scrollmenu .card img {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+/* div.scrollmenu .card:hover {
+    background-color: #777;
+  } */
+
+.card {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #E85435;
+    overflow: hidden;
+    width: 93%;
+    margin: auto;
+    height: 0;
+    transition: .5s ease;
+}
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card:hover .overlay {
+    height: 19%;
+}
+
+.centered {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+  }
+
+  .text{
+    text-decoration: solid;
+    font-size: 35px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }

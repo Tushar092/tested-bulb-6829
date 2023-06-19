@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CreateEvents.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Eventbrite - Create a new event</title>
+</head>
+
+<body>
+    <div id="nav">
+        <div id="logo"><img src="./EB_logo.jpg" alt="Logo"></div>
+        <div id="search">
+            <input type="text" placeholder="">
+        </div>
+        <div id="nav-links">
+            <!-- <div><p>Browse Events</p></div>
+            <div>Organise</div>
+            <div>Help</div>
+            <div>Login</div>
+            <div>Signup</div> -->
+            <a href="#home">Browse Events</a>
+            <div class="dropdown">
+                <button class="dropbtn">Organise
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Create Events</a>
+                    <br>
+                    <a href="#">Pricing</a>
+                    <br>
+                    <a href="#">Resources</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Help
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Find your events</a>
+                    <a href="#">Contact an event Organiser</a>
+                    <a href="#">Visit the Help Center</a>
+                </div>
+            </div>
+            <a href="http://127.0.0.1:5500/frontend/login.html">Login</a>
+            <a href="http://127.0.0.1:5500/frontend/register.html">Signup</a>
+
+        </div>
+    </div>
+    <div id="container">
+        <div>
+            <img src="./Fimage.jpg" alt="text">
+        </div>
+        <div>
+            <h1>Basic Info</h1>
+            <p>Name your event and tell event-goers why they should come. Add details that highlight what makes it unique.</p>
+            <form action="" id="form">
+                <input type="text" placeholder="Event title">
+                <input type="text" placeholder="Organizer">
+                <select name="Category" id="category" value="Category"></select>
+                <br>
+                <br>
+                <label for="Tags"><b>Tags</b></label>
+                <p>Improve discoverability of your event by adding tags relevant to the subject matter.</p>
+                <input type="text" placeholder="Tags">
+                <div style="width: auto; border-top:1px solid gray; margin: 30px 0px 30px 0px;"></div>
+                <h1>Location</h1>
+                <p>Help people in the area discover your event and let attendees know where to show up.</p>
+                <div style="width: auto; border-top:1px solid gray; margin: 30px 0px 30px 0px;"></div>
+                <!-- <h1>Date and time</h1>
+                <p>Tell event-goers when your event starts and ends so they can make plans to attend.</p>
+                <div id="buttons">
+                    <input type="submit" value="Discard">
+                    <input type="submit" value="Save & Continue">
+                </div> -->
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

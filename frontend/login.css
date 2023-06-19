@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+}
+#body{
+    display: flex;
+}
+
+#left{
+    width: 100%;
+    margin: auto;
+}
+
+#form_div{
+    margin-bottom: 50px;
+}
+
+#left>div>h1{
+    margin-left: 160px;
+    margin-bottom: 50px;
+}
+
+#form_div > form > input{
+    display: block;
+    font-size: 12px;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 2px;
+    border: 1px solid rgb(170, 170, 170);
+}
+
+#form_div>form>#submit_btn{
+    width: 54%;
+    background-color: #E85435;
+    color: white;
+    border: 0px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.login_link{
+    width: 50%;
+    cursor: pointer;
+    margin: auto;
+    padding: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+#gic{
+    width: 10%;
+    
+}
+
